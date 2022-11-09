@@ -3,7 +3,8 @@
    <%= @room.name %>
   </div>
   <div class="header-right">
-  <a href="#" class="header-chatend">チャットを終了する</a>
+      <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+    <%# <a href="#" class="header-chatend">チャットを終了する</a> %>
   </div>
 </div>
 
