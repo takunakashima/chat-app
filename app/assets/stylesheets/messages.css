@@ -9,25 +9,28 @@
 }
 .side_bar_header{
   height: 100px;
+  width: 300px;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #253141;
 }
-.side_bar_username{
+.side_bar_username a {
   color: #FAFAFA;
   font-size: 16px;
   line-height: 100px;
   text-decoration: none;
 }
-
-.bar{
+.side_bar_create a {
   font-size: 10px;
   color: deepskyblue;
   border: 1px solid lightblue;
   padding: 14px;
   text-decoration: none;
 }
+
+
 .side_rooms{
   padding: 0 20px;
   overflow: scroll;
@@ -37,7 +40,7 @@
 .room{
   margin: 20px 0 40px;
 }
-.room_name a {
+.room-name a {
   color: white;
   text-decoration: none;
 }
@@ -102,7 +105,12 @@
 
 
 
-
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+  }
 
 .main_footer{
   height: 90px;
@@ -117,13 +125,19 @@
 }
 .form-input{
   width: 100%;
-  height: 50px;
-  margin-right: 15px;
-  padding-left: 10px;
-  border:none;
+  /* height: 50px; */
+  /* margin-right: 15px; */
+  /* padding-left: 10px; */
+  /* border:none; */
   background-color: white;
-
+  display: flex;
 }
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  }
 .form-image {
   font-size: 12px;
   background-color: lightblue;
